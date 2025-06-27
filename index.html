@@ -1,129 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Support and FAQ page for the Flappingo mobile game. Contact us for help or feedback." />
+  <meta name="theme-color" content="#FC4850" />
   <title>Flappingo Support</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --primary: #ff4b6e;
-      --background: #fffdfd;
-      --accent: #f0f0f0;
-      --text: #333;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: var(--background);
-      color: var(--text);
-      padding: 2rem;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      background: white;
-      padding: 2rem;
-      border-radius: 16px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
-      animation: fadeIn 0.6s ease;
-    }
-
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      margin-bottom: 2rem;
-      font-weight: 600;
-    }
-
-    nav a {
-      color: var(--primary);
-      text-decoration: none;
-      font-size: 1.1rem;
-      border-bottom: 2px solid transparent;
-      padding-bottom: 2px;
-    }
-
-    nav a:hover,
-    nav a.active {
-      border-bottom-color: var(--primary);
-    }
-
-    h1 {
-      color: var(--primary);
-      font-size: 2.2rem;
-    }
-
-    h2 {
-      margin-top: 2rem;
-      color: #555;
-      font-size: 1.4rem;
-    }
-
-    a {
-      color: var(--primary);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    ul {
-      padding-left: 1.2rem;
-    }
-
-    li {
-      margin-bottom: 1rem;
-      line-height: 1.6;
-    }
-
-    .footer {
-      margin-top: 3rem;
-      font-size: 0.95rem;
-      color: #888;
-      text-align: center;
-    }
-
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(10px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <div class="container">
-    <nav>
-      <a href="index.html" class="active">Support</a>
-      <a href="privacy-policy.html">Privacy Policy</a>
-    </nav>
+    <div class="header">
+      <div class="logo">
+        <img src="logo.pdf" alt="Flappingo logo" />
+      </div>
+      <nav>
+        <a href="index.html">Support</a>
+        <a href="privacy-policy.html" class="active">Privacy Policy</a>
+        <a href="how-to-play.html">How to Play?</a>
+      </nav>
+
+    </div>
 
     <h1>Flappingo – Support</h1>
-    <p>Thanks for playing <strong>Flappingo</strong>! We’re here to help you if you run into any issues or have feedback.</p>
+    <p>Thanks for playing <strong>Flappingo</strong>! We’re here to help you if you run into any issues or have
+      feedback.</p>
 
     <h2>📬 Contact</h2>
-    <p>Need help? Found a bug? Reach us any time at <a href="mailto:yourname@example.com">yourname@example.com</a>.</p>
+    <p>Need help? Found a bug? Reach us any time at <a href="mailto:support@flappingo.com"
+        aria-label="Email Flappingo support">support@flappingo.com</a>.</p>
 
     <h2>❓ Frequently Asked Questions</h2>
     <ul>
       <li><strong>How do I control Flappingo?</strong><br />
-        Tap the left or right side of the screen to flap in that direction. Collect all the bubbles and avoid the spikes!</li>
+        Tap the left or right side of the screen to flap in that direction. Collect all the bubbles and avoid the
+        spikes!</li>
 
       <li><strong>How do I complete a level?</strong><br />
-        You must collect <em>every</em> bubble without touching any spikes. Once all bubbles are collected, the level ends.</li>
+        You must collect <em>every</em> bubble without touching any spikes. Once all bubbles are collected, the level
+        ends.</li>
 
       <li><strong>The app isn't working correctly!</strong><br />
         Try closing and reopening it. Still stuck? Send us details about your device and what happened.</li>
@@ -137,4 +56,5 @@
     </div>
   </div>
 </body>
+
 </html>
